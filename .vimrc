@@ -34,7 +34,7 @@ if has("gui_running")
     set guioptions-=r "remove right-hand scroll bar
     
     " TODO: This font won't be available everywhere.
-    set guifont=ProggyCleanTT\ 12
+    set guifont=Inconsolata\ Medium\ 12
     
     " Default size should be nice and big
     set columns=100
