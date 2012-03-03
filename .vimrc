@@ -8,9 +8,7 @@ set nocompatible
 call pathogen#infect()
 
 " Color Scheme
-set background=dark
-colorscheme solarized
-let g:solarized_visibility = "low"
+colorscheme molokai
 
 " No modelines (security issues?)
 set modelines=0
