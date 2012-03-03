@@ -5,6 +5,8 @@
 set nocompatible
 
 " Start pathogen for plugin loading
+" The special runtime is used so that pathogen can be a submodule
+runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " Color Scheme
