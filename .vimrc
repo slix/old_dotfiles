@@ -73,6 +73,16 @@ set listchars=tab:▸\ ,eol:¬
 " Multiple buffer support?
 set hidden
 
+" Simplify compile/run cycle
+" ftplugins or compiler plugins should create buffer-local commands
+set autowrite
+nmap <Leader>m :Make<CR>
+nmap <F9> <Leader>m
+nmap <Leader>r :Run<CR>
+nmap <F10> <Leader>r
+command -nargs=* Make FileMake <args>
+command -nargs=* Run FileRun <args>
+
 " DISABLED Disable arrow keys to force me to use hjkl
 "nnoremap <up> <nop>
 "nnoremap <down> <nop>
