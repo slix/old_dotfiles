@@ -10,7 +10,9 @@ runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " Color Scheme
-colorscheme molokai
+colorscheme molokai " Until smyck sets more colors. Otherwise some
+                    " colors look very off.
+colorscheme smyck
 
 " No modelines (security issues?)
 set modelines=0
