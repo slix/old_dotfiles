@@ -30,7 +30,11 @@ filetype plugin indent on
 " GUI
 if has("gui_running")
     "Remove all GUI elements
-    set guioptions-=mTtrL
+    set guioptions-=m
+    set guioptions-=T
+    set guioptions-=t
+    set guioptions-=r
+    set guioptions-=L
 
     " TODO: This font won't be available everywhere.
     set guifont=Inconsolata\ Medium\ 12
