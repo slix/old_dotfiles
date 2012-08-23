@@ -29,10 +29,9 @@ filetype plugin indent on
 
 " GUI
 if has("gui_running")
-    set guioptions-=m "remove menu bar
-    set guioptions-=T "remove toolbar
-    set guioptions-=r "remove right-hand scroll bar
-    
+    "Remove all GUI elements
+    set guioptions-=mTtrL
+
     " TODO: This font won't be available everywhere.
     set guifont=Inconsolata\ Medium\ 12
     
