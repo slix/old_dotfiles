@@ -82,12 +82,12 @@ nmap <F10> <Leader>r
 command -nargs=* Make FileMake <args>
 command -nargs=* Run FileRun <args>
 
-" DISABLED Disable arrow keys to force me to use hjkl
-"nnoremap <up> <nop>
-"nnoremap <down> <nop>
-"nnoremap <left> <nop>
-"nnoremap <right> <nop>
-"inoremap <up> <nop>
-"inoremap <down> <nop>
-"inoremap <left> <nop>
-"inoremap <right> <nop>
+" Disable arrow keys to force me to use hjkl
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
